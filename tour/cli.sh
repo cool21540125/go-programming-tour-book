@@ -1,3 +1,4 @@
 go run main.go
-go run main.go -name=TonyChou
-go run main.go -n=TonyChou
+go run main.go -word FOO -numb 88 -fork -svar=BAR
+go run main.go -word FOO -numb 88 -svar=BAR
+go run main.go -word=opt a1 a2 a3
